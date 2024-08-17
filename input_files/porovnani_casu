@@ -1,0 +1,58 @@
+500 peptidů
+-O0
+real    4m5.603s
+
+-O2
+real    0m30.305s
+user    0m27.396s
+sys     0m1.641s
+
+-O3
+real    0m29.958s
+user    0m26.985s
+sys     0m1.676s
+
+-helix-fast
+real    0m33.835s
+user    0m30.823s
+sys     0m1.592s
+
+načtení energie_human, vytisknutí
+real    0m14.448s
+user    0m12.283s
+sys     0m1.424s
+
+načtenií energií, vytisknutí
+real    0m2.070s
+user    0m0.214s
+sys     0m0.123s
+
+načtení energií -O3 bez tisku
+real    0m0.932s
+user    0m0.097s
+sys     0m0.097s
+
+výpočet celkový 
+real    0m1.869s
+user    0m0.313s
+sys     0m0.177s
+
+výpočet -O3
+real    0m0.684s
+user    0m0.130s
+sys     0m0.096s
+
+výpočet -O3 10k
+real    0m11.269s
+user    0m1.837s
+sys     0m0.725s
+
+výpočet O3 10k jedno pole E_H, a paralelní redukce
+real    0m9.457s
+user    0m1.554s
+sys     0m0.585s
+
+výpočet pro pouze 2 bloky a 600 vláken
+real    0m9.050s
+user    0m1.574s
+sys     0m0.645s
