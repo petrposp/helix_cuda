@@ -146,7 +146,7 @@ public:
         for(auto& res : seq) {
             cm.x += res.pos.x;
             cm.y += res.pos.y;
-            cm.z += res.pos.y;
+            cm.z += res.pos.z;
             ++count;
         }
         cm *= 1.0/count; // dělení součtu atomů jejich počtem
